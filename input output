@@ -1,0 +1,29 @@
+#Koding Input Output
+
+name = str(input("What is your name : ")) 
+age = int(input("What's your age : ")) 
+print("Name: ", name) 
+print("Age: ", age)
+
+#Output 
+# normal print 
+print('Hi all! I am', name, 'age', age, 'years old')
+
+# format print 
+print(f'Hi all! I am {name} age {age} years old')
+
+# format print 
+print(f'Hi all! I am %s age %d years old'%(name, age)) # fortmat output 
+print(30*"=") 
+print("Temperature Calculator Program") 
+print(30*"=") 
+
+output :
+
+What is your name : adit
+What's your age : 16
+Name:  adit
+Age:  16
+Hi all! I am adit age 16 years old
+Hi all! I am adit age 16 years old
+Hi all! I am adit age 16 years old

@@ -1,0 +1,48 @@
+# Koding logical operators 
+
+a = True 
+b = True 
+print(a and b) 
+print(a or b) 
+print(not b) 
+#logic 
+5 > 6 and 6 < 7 
+
+#Koding arithmetic operators 
+e = 8 
+f = 2 
+# Summation 
+sum = e + f 
+print(f"The sum of e with f is : {sum}\n") 
+# Reduction 
+red = e - f 
+print(f"The reduction of e with f is : {red}\n")
+# Multiplication 
+multi = e * f 
+print(f"The multipication of e with f is : {multi}\n") 
+# Division 
+divi = e / f 
+print(f"The quotient of e with f is : {divi}\n") 
+# Modulo 
+mod = e % f 
+print(f"The remainder of e with f is : {mod}\n") 
+# Power 
+pow = e ** f 
+print(f"The power of e of f is : {pow}\n")
+
+output:
+
+True
+True
+False
+The sum of e with f is : 10
+
+The reduction of e with f is : 6
+
+The multipication of e with f is : 16
+
+The quotient of e with f is : 4.0
+
+The remainder of e with f is : 0
+
+The power of e of f is : 64
